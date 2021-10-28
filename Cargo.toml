@@ -8,4 +8,6 @@ edition = "2018"
 [dependencies]
 actix-web = "3.3.2"
 env_logger = "0.8.4"
-tera = { path = "../../github/tera" }
+rayon = "1.5.1"
+#tera = { path = "../../github/tera" }
+tera = { git = "https://github.com/moschroe/tera", branch = "feature_variably-constrained-context" }
